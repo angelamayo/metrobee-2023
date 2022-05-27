@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="practice.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Metro Bee Preliminary</title>
+</head>
+<body>
+  <header>
+    <h1>Metro Spelling Bee</h1>
+    <p>Rewarding academic accomplishments</p>
+</header>
+<main>
+    
+  <article>
+    <P id="tday"></P>
+  </article>
+
+  <article>
+  <div class="parent" >
+      <div class="child">
+        <form>
+          <legend>Aggie | Preliminary | <span>Score: 26/30</span></legend>
+          <p>Timer: 00:00</p>
+          <input type="text">
+        </form> 
+        <button onclick="letterA()" class="button button1">A</button>
+        <button onclick="letterB()" class="button button2">B</button>
+        <button onclick="letterC()"class="button button1">C</button>
+        <button onclick="letterD()"class="button button2">D</button>
+        <button onclick="letterE()"class="button button1">E</button>
+        <button onclick="letterF()"class="button button2">F</button>
+        <br>
+        <button onclick="letterG()"class="button button1">G</button>
+        <button onclick="letterH()"class="button button2">H</button>
+        <button onclick="letterI()"class="button button1">I</button>
+        <button onclick="letterJ()"class="button button2">J</button>
+        <button onclick="letterK()"class="button button1">K</button>
+        <button onclick="letterL()"class="button button2">L</button>
+        <br>
+        <button onclick="letterM()"class="button button1">M</button>
+        <button onclick="letterN()"class="button button2">N</button>
+        <button onclick="letterO()"class="button button1">O</button>
+        <button onclick="letterP()"class="button button1">P</button>
+        <button onclick="letterQ()"class="button button2">Q</button>
+        <button onclick="letterR()"class="button button1">R</button>
+        <br>
+        <button onclick="letterS()"class="button button2">S</button>
+        <button onclick="letterT()"class="button button1">T</button>
+        <button onclick="letterU()"class="button button2">U</button>
+        <button onclick="letterV()"class="button button1">V</button>
+        <button onclick="letterW()"class="button button2">W</button>
+        <button onclick="letterX()"class="button button1">X</button>
+        <br>
+        <button onclick="letterY()"class="button button2">-</button>
+        <button onclick="letterY()"class="button button2">Y</button>
+        <button onclick="letterZ()"class="button button1">Z</button>
+        <button onclick="letterY()"class="button button2">space</button>
+        <br>
+        <button onclick="letterZ()"class="button button1">Listen</button>
+        <button onclick="letterA()"class="button button2">Clear</button>
+        <button onclick="letterA()"class="button button2">restore</button>
+        <br>
+        <button onclick="letterA()"class="button button1">Submit</button>
+        <button onclick="letterA()"class="button button1">Next</button>
+        <br>
+        <button onclick="letterA()"class="button button1">Switch to voice</button>
+      </div>
+    </div>
+</article>
+</main>   
+<footer class="fa ">Copyright &#xf1f9;2022 All rights reserved <br><span>Metro Spelling Bee</span> </footer>
+
+<script>
+
+    const today = new Date();
+    document.getElementById("tday").innerHTML = today;
+    
+    </script>
+</body>
+</html>
