@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/leaderboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Scorecard</title>
+</head>
+<body>
+  <header>
+    <h1>Metro Spelling Bee</h1>
+    <p>Rewarding academic accomplishments</p>
+</header>
+<main>
+      <article>
+          <P id="tday"></P>
+          <h2>Your Scorecard</h2>
+          <h3>Practice | Mary : 18/30</h3>
+          <h3>Class: Weak contender</h3>
+
+        <table>
+          <tr>
+            <td colspan="2" style="text-align:center">See the list of all your spellings including their pronunciations and meanings.</td>
+          </tr>
+        <tr>
+          <th class="table-header">Spellings</th>
+          <th class="table-header">Corrections</th>
+        </tr>
+        <tr>
+          <td>Pneumonia</td>
+          <td class="fa fa-check-circle"></td>
+        </tr>
+        <tr>
+          <td>Ensyclopaedia</td>
+          <td>encyclopaedia</td>
+        </tr>
+        <tr>
+          <td>Onomatopia</td>
+          <td>onomatopoeia</td>
+        </tr>
+        <tr>
+          <td>Synedoche</td>
+          <td >Synecdoche</td>
+        </tr>
+        <tr>
+          <td>Deus ex machina</td>
+          <td class="fa fa-check-circle"></td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <th class="table-header">Pronunciation</th>
+          <th class="table-header">Meaning</th>
+        </tr>
+        <tr>
+          <td>/njuːˈməʊniə/</td>
+          <td >a serious illness affecting one or both lungs that makes breathing difficult</td>
+        </tr>
+        <tr>
+          <td>/ɪnˌsaɪkləˈpiːdiə/</td>
+          <td>a book or set of books giving information about all areas of knowledge or about different areas of one particular subject, usually arranged in alphabetical order; a similar collection of information in digital form</td>
+        </tr>
+        <tr>
+          <td>/ˌɒnəˌmætəˈpiːə/</td>
+          <td>the fact of words containing sounds similar to the noises they describe, for example hiss; the use of words like this in a piece of writing</td>
+        </tr>
+        <tr>
+          <td>/sɪˈnekdəki/</td>
+          <td >a word or phrase in which a part of something is used to represent a whole, or a whole is used to represent a part of something. </td>
+        </tr>
+        <tr>
+          <td>/ˌdeɪʊs eks ˈmækɪnə/</td>
+          <td>an unexpected power or event that saves a situation that seems without hope, especially in a play or novel</td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center">Practice makes perfect <button onclick="" class="button button1">Try again</button></td>
+        </tr>
+      </table>
+    </article>
+    
+
+    </main>
+    
+    <footer class="fa ">Copyright &#xf1f9;2022 All rights reserved <br><span>Metro Spelling Bee</span> </footer>
+
+<script>
+
+    const today = new Date();
+    document.getElementById("tday").innerHTML = today;
+    
+    </script>
+</body>
+</html>
